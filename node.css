@@ -1,9 +1,27 @@
 *{
   margin:20px;
 }
-.topnav{
-  display: flex;
+div.topnav{
+  background-color: aliceblue;
+  overflow: auto;
+  white-space: nowrap;
 }
-.bg-img{
-  background-image url()
+div.topnav a{
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+div.topnav a:hover{
+  background-color: bisque;
+}
+
+  .bg-img {
+  min-height:380px;
+background-image: url('2.png');
+background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
 }
