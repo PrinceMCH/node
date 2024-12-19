@@ -4,3 +4,6 @@
 .topnav{
   display: flex;
 }
+.bg-img{
+  background-image url()
+}
